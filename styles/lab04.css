@@ -1,0 +1,84 @@
+/*
+filename: lab05.css
+author: Yati Myat Aye
+created: 20/09/2026
+last modified: 20/09/2026
+description: Building the style sheet for lab05.html
+*/
+
+/*to change both font and colour for everything on web */
+* {
+    font-family: 'Calibri', 'Sans-serif';
+    color: #2F4F4F;
+}
+
+/* changes only main h1 heading */
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*here this changes all h2 headings */
+h2 {
+    color: rgb(0, 128, 128);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* all 3 headings into same fonts */
+h1, h2, h3 {
+    font-family: 'Arial', 'Sans-serif';
+}
+
+/* aside and footer into pretty italic */
+aside, footer {
+    font-style: italic;
+}
+
+/*line border to the table*/
+table, th, td {
+    border: 1px solid black;
+}
+
+/* bullet points into bullet squaes*/
+ol ul{
+    list-style-type: square;
+}
+
+/* images heading in mid centre */
+#images {
+    text-align: center;
+}
+
+/* Headings h3 turns red */
+#headingstyle {
+    color: red;
+}
+
+/*special characters into orange + bold letters!*/
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/*Jan and Feb to the right side */
+.month {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+/* this will hide aside whenever user hover on it*/
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
